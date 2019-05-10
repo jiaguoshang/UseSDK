@@ -1,0 +1,24 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+target 'UseSDK' do
+    #RAC响应式编程库
+    pod 'ReactiveObjC'
+    
+    ##################################第三方###########################
+    #YYModel--数组转模型组件
+    pod 'YYModel'
+    
+    #YYCategories--给系统类添加的分类
+    pod 'YYCategories'
+    
+    pod 'FMDB'
+    pod 'MJExtension'
+    
+    pod 'AFNetworking', '3.1.0'
+    
+    pod 'SDAutoLayout'
+    pod 'SAMKeychain'
+end
